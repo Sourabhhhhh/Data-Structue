@@ -1,0 +1,33 @@
+
+import java.util.HashMap;
+import java.util.Map;
+public class Hashmap {
+    public static void main(String[] args) {
+        HashMap<Integer,String> hashmap=new HashMap<>();
+
+       // function of put function
+        hashmap.put(1,"arum");
+        hashmap.put(5,"ck");
+        hashmap.put(3,"ayush");
+        hashmap.put(4,"himanshu");
+        System.out.println("HAshMap of giveb data is: "+ hashmap);
+
+        //function of  get() function
+        String result=hashmap.get(3);
+        System.out.println("Value for the given key is :"+result);
+
+        //function of the containKey() function
+        System.out.println(hashmap.containsKey(2));
+
+        //function of the remove() function
+        hashmap.remove(1);
+        System.out.println("updated hashmap after remove() :"+hashmap);
+
+        //iterating using loop
+        System.out.println("hashmap :");
+        for(Map.Entry<Integer,String> e: hashmap.entrySet()){
+            System.out.println(e.getKey()+ ":"+e.getValue());
+        }
+
+    }
+}
