@@ -215,6 +215,7 @@ Once it has checked all items, it moves the known smallest to the cursor and adv
 As the algorithm processes the data set, it builds a fully sorted left side of the data until the entire data set is sorted
 Changes the array in place.
 
+![selection sort](https://github.com/user-attachments/assets/2613b63b-b676-4bf8-81f3-a574de17f945)
 
 What to know
 
