@@ -1,0 +1,27 @@
+
+import java.util.LinkedList;
+
+public class Queue {
+    public static void main(String[] args) {
+
+        java.util.Queue<Integer> q= new LinkedList<>();
+
+        //
+        for(int i=0; i<10; i++){
+            q.add(i);
+        }
+        System.out.println("Queue data looks like: "+q);
+
+        //to display the top element present at the top before deletion
+        System.out.println("top element in the queue before the deletion: "+ q.peek());
+
+        //to remove the element from the queue - dequeue
+        q.remove();
+
+        // to display the top element present at the top after deletion
+        System.out.println("top element in the queue after the deletion :"+q.peek());
+
+        //to display the size of the queue
+        System.out.println("size of the queue : "+q.size());
+    }
+}
