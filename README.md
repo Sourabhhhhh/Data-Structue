@@ -215,13 +215,11 @@ Once it has checked all items, it moves the known smallest to the cursor and adv
 As the algorithm processes the data set, it builds a fully sorted left side of the data until the entire data set is sorted
 Changes the array in place.
 
-![selection sort](https://github.com/user-attachments/assets/2613b63b-b676-4bf8-81f3-a574de17f945)
 
 What to know
 
 Inefficient for large data sets.
 Very simple to implement.
-#
 
 Insertion Sort
 
@@ -237,7 +235,6 @@ What to know
 
 Inefficient for large data sets, but can be faster for than other algorithms for small ones.
 Although it has an O(n^2) time complexity, in practice it is slightly less since its comparison scheme only requires checking place if it is smaller than its neighbor.
-#
 
 Merge Sort
 
@@ -252,7 +249,6 @@ What to know
 
 This is one of the fundamental sorting algorithms.
 Know that it divides all the data into as small possible sets then compares them.
-#
 
 Quicksort
 
@@ -269,5 +265,5 @@ Changes the array in place.
 What to know
 
 While it has the same Big O as (or worse in some cases) many other sorting algorithms it is often faster in practice than many other sorting algorithms, such as merge sort.
-#
+
 
